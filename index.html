@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cinnamon Hotel</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/datepicker.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merienda:700|Gaegu:400,700|El+Messiri:400,700|Quicksand:400,700|Poiret+One|Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--Start header-->
+<header class="text-center">
+    <div class="overlay">
+        <!--start navabr-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Cinnamon</a>
+                </div>
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#booking">Booking</a>
+                    <a href="#">About</a>
+                    <a href="#">Services &amp; Features</a>
+                    <a href="#">Accommodation</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Contact</a>
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+        </nav>
+        <!--end nvbar-->
+        <div class="welcome-msg text-center">
+            <h1 class="upper">Welcome to cinnamon</h1>
+            <p>You will enjoy the beauty of hospitality and nature</p>
+            <div class="wrapper">
+                <div class="btn btn--border btn--primary btn--animated upper">get started</div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--End header-->
+
+<!--Start Booking Section-->
+
+<section id="booking" class="booking">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 wow slideInLeft">
+                <div class="booking-desc text-center">
+                    <h2 class="upper">reception</h2>
+                    <img src="imgs/reception.jpg" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-md-8 wow slideInRight">
+                <div class="booking-date">
+                    <h3 class="upper text-center">booking date</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class='input-group date'>
+                                    <input type='text' class="form-control datepicker" placeholder="Arrival Date"/>
+                                    <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class='input-group date'>
+                                    <input type='text' class="form-control datepicker" placeholder="Leave Date"/>
+                                    <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="type">
+                    <h3 class="text-center">Types</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <select class="form-control form-group">
+                                <option>Adult</option>
+                                <option>Old</option>
+                                <option>Young</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control form-group">
+                                <option>Child</option>
+                                <option>Baby</option>
+                                <option>Child</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rooms">
+                    <h3 class="text-center">How many rooms ?</h3>
+                    <select class="form-control form-group">
+                        <option>1 Room</option>
+                        <option>2 Rooms</option>
+                        <option>3 Rooms</option>
+                        <option>4 Rooms</option>
+                    </select>
+                </div>
+                <div class="wrapper">
+                    <div class="btn btn--border btn--primary btn--animated upper">book now</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Booking Section-->
+
+<!--Start About Us Section-->
+<section class="about-us">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 wow fadeInDown">
+                <div class="about-desc">
+                    <h2 class="upper ">About us</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                    <div class="wrapper">
+                        <div class="btn btn--border btn--primary btn--animated upper">request<i class="fa fa-arrow-right"></i> </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="img">
+                    <img src="imgs/about.jpg" class="img-responsive wow fadeInUp" data-wow-duration="1.5s">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--
+        End About Us Section
+-->
+
+<!--
+        Start Services & Features section
+-->
+<section class="features">
+    <div class="overlay">
+        <div class="container">
+            <div class="features-desc text-center">
+                <h2 class="upper">services &amp; features</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+            </div>
+            <div class="features-types">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 wow slideInUp" data-wow-duration="1.5s">
+                        <div class="feat feat1">
+                            <h3>
+                                <i class="fa fa-swimming-pool"></i>
+                                Swimming pools
+                            </h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                        <div class="feat feat2">
+                            <h3>
+                                <i class="fa fa-golf-ball"></i>
+                                Golf course
+                            </h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <div class="feat feat3">
+                            <h3>
+                                <i class="fa fa-table-tennis"></i>
+                                Tennis courts
+                            </h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                        <div class="feat feat4">
+                            <h3>
+                                <i class="fa fa-cut"></i>
+                                Hairdressing salon
+                            </h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                        <div class="feat feat5">
+                            <h3>
+                                <i class="fa fa-utensils"></i>
+                                Restaurants
+                            </h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+                        <div class="feat feat6">
+                            <h3>
+                                <i class="fa fa-glass-martini"></i>
+                                Bars
+                            </h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--
+        End Services & Features section
+-->
+
+<!--
+        Start Accommodation section
+-->
+<section class="accommodation text-center">
+    <div class="container">
+        <div class="desc">
+            <h2 class="upper">accommodation</h2>
+            <p>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            </p>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="holding wow fadeInUp" data-wow-duration="1.5s">
+                        <img src="imgs/accom/1.jpg" alt="" class="img-responsive">
+                        <div class="img-overlay">
+                            <div class="wrapper">
+                                <div class="btn btn--border btn--primary btn--animated styl upper">more details</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="holding wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                        <img src="imgs/accom/2.jpg" alt="" class="img-responsive">
+                        <div class="img-overlay">
+                            <div class="wrapper">
+                                <div class="btn btn--border btn--primary btn--animated styl upper">more details</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="holding wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <img src="imgs/accom/3.jpg" alt="" class="img-responsive">
+                        <div class="img-overlay">
+                            <div class="wrapper">
+                                <div class="btn btn--border btn--primary btn--animated styl upper">more details</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="holding wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                        <img src="imgs/accom/4.jpg" alt="" class="img-responsive">
+                        <div class="img-overlay">
+                            <div class="wrapper">
+                                <div class="btn btn--border btn--primary btn--animated styl upper">more details</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--
+        End Accommodation section
+-->
+
+
+<!--
+        Start Gallery section
+-->
+<section class="gallery wow slideInUp" data-wow-duration="2.5s">
+    <div class="container">
+        <div class="gallery-desc text-center">
+            <h2 class="upper">gallery</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <!-- #region Jssor Slider Begin -->
+            <!-- Generator: Jssor Slider Maker -->
+            <!-- Source: https://www.jssor.com -->
+            <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+            <script type="text/javascript" src="js/jssor.slider.min.js"></script>
+            <script type="text/javascript">
+                jQuery(document).ready(function ($) {
+
+                    var jssor_1_SlideshowTransitions = [
+                        {$Duration:1200,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                        {$Duration:1200,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+                    ];
+
+                    var jssor_1_options = {
+                        $AutoPlay: 1,
+                        $SlideshowOptions: {
+                            $Class: $JssorSlideshowRunner$,
+                            $Transitions: jssor_1_SlideshowTransitions,
+                            $TransitionsOrder: 1
+                        },
+                        $ArrowNavigatorOptions: {
+                            $Class: $JssorArrowNavigator$
+                        },
+                        $ThumbnailNavigatorOptions: {
+                            $Class: $JssorThumbnailNavigator$,
+                            $SpacingX: 5,
+                            $SpacingY: 5
+                        }
+                    };
+
+                    var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                    /*#region responsive code begin*/
+
+                    var MAX_WIDTH = 980;
+
+                    function ScaleSlider() {
+                        var containerElement = jssor_1_slider.$Elmt.parentNode;
+                        var containerWidth = containerElement.clientWidth;
+
+                        if (containerWidth) {
+
+                            var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                            jssor_1_slider.$ScaleWidth(expectedWidth);
+                        }
+                        else {
+                            window.setTimeout(ScaleSlider, 30);
+                        }
+                    }
+
+                    ScaleSlider();
+
+                    $(window).bind("load", ScaleSlider);
+                    $(window).bind("resize", ScaleSlider);
+                    $(window).bind("orientationchange", ScaleSlider);
+                    /*#endregion responsive code end*/
+                });
+            </script>
+            <style>
+                /* jssor slider loading skin spin css */
+                .jssorl-009-spin img {
+                    animation-name: jssorl-009-spin;
+                    animation-duration: 1.6s;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                }
+
+                @keyframes jssorl-009-spin {
+                    from {
+                        transform: rotate(0deg);
+                    }
+
+                    to {
+                        transform: rotate(360deg);
+                    }
+                }
+
+
+                .jssora106 {display:block;position:absolute;cursor:pointer;}
+                .jssora106 .c {fill:#fff;opacity:.3;}
+                .jssora106 .a {fill:none;stroke:#000;stroke-width:350;stroke-miterlimit:10;}
+                .jssora106:hover .c {opacity:.5;}
+                .jssora106:hover .a {opacity:.8;}
+                .jssora106.jssora106dn .c {opacity:.2;}
+                .jssora106.jssora106dn .a {opacity:1;}
+                .jssora106.jssora106ds {opacity:.3;pointer-events:none;}
+
+                .jssort101 .p {position: absolute;top:0;left:0;box-sizing:border-box;background:#000;}
+                .jssort101 .p .cv {position:relative;top:0;left:0;width:100%;height:100%;border:2px solid #000;box-sizing:border-box;z-index:1;}
+                .jssort101 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;visibility:hidden;}
+                .jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {border:none;border-color:transparent;}
+                .jssort101 .p:hover{padding:2px;}
+                .jssort101 .p:hover .cv {background-color:rgba(0,0,0,6);opacity:.35;}
+                .jssort101 .p:hover.pdn{padding:0;}
+                .jssort101 .p:hover.pdn .cv {border:2px solid #fff;background:none;opacity:.35;}
+                .jssort101 .pav .cv {border-color:#fff;opacity:.35;}
+                .jssort101 .pav .a, .jssort101 .p:hover .a {visibility:visible;}
+                .jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
+                .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
+            </style>
+            <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:480px;overflow:hidden;visibility:hidden;">
+                <!-- Loading Screen -->
+                <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                    <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../svg/loading/static-svg/spin.svg" />
+                </div>
+                <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+                    <div>
+                        <img data-u="image" src="imgs/gallery/1.jpg" />
+                        <img data-u="thumb" src="imgs/gallery/1-thumb.jpg" />
+                    </div>
+
+                    <div>
+                        <img data-u="image" src="imgs/gallery/2.jpg" />
+                        <img data-u="thumb" src="imgs/gallery/2-thumb.jpg" />
+                    </div>
+
+                    <div>
+                        <img data-u="image" src="imgs/gallery/3.jpg" />
+                        <img data-u="thumb" src="imgs/gallery/3-thumb.jpg" />
+                    </div>
+
+                    <div>
+                        <img data-u="image" src="imgs/gallery/4.jpg" />
+                        <img data-u="thumb" src="imgs/gallery/4-thumb.jpg" />
+                    </div>
+
+                    <div>
+                        <img data-u="image" src="imgs/gallery/5.jpg" />
+                        <img data-u="thumb" src="imgs/gallery/5-thumb.jpg" />
+                    </div>
+
+                    <div>
+                        <img data-u="image" src="imgs/gallery/6.jpg" />
+                        <img data-u="thumb" src="imgs/gallery/6-thumb.jpg" />
+                    </div>
+
+                    <div>
+                        <img data-u="image" src="imgs/gallery/7.jpg" />
+                        <img data-u="thumb" src="imgs/gallery/7-thumb.jpg" />
+                    </div>
+
+                    <div>
+                        <img data-u="image" src="imgs/gallery/8.jpg" />
+                        <img data-u="thumb" src="imgs/gallery/8-thumb.jpg" />
+                    </div>
+                    <div>
+                        <img data-u="image" src="imgs/gallery/9.jpg" />
+                        <img data-u="thumb" src="imgs/gallery/9-thumb.jpg" />
+                    </div>
+
+                </div>
+                <!-- Thumbnail Navigator -->
+                <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:100px;background-color:#000;" data-autocenter="1" data-scale-bottom="0.75">
+                    <div data-u="slides">
+                        <div data-u="prototype" class="p" style="width:190px;height:84px;">
+                            <div data-u="thumbnailtemplate" class="t"></div>
+                            <svg viewBox="0 0 16000 16000" class="cv">
+                                <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
+                                <line class="a" x1="6190.5" y1="8000" x2="9809.5" y2="8000"></line>
+                                <line class="a" x1="8000" y1="9809.5" x2="8000" y2="6190.5"></line>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- Arrow Navigator -->
+                <div data-u="arrowleft" class="jssora106" style="width:55px;height:55px;top:162px;left:30px;" data-scale="0.75">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                        <polyline class="a" points="7930.4,5495.7 5426.1,8000 7930.4,10504.3 "></polyline>
+                        <line class="a" x1="10573.9" y1="8000" x2="5426.1" y2="8000"></line>
+                    </svg>
+                </div>
+                <div data-u="arrowright" class="jssora106" style="width:55px;height:55px;top:162px;right:30px;" data-scale="0.75">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                        <polyline class="a" points="8069.6,5495.7 10573.9,8000 8069.6,10504.3 "></polyline>
+                        <line class="a" x1="5426.1" y1="8000" x2="10573.9" y2="8000"></line>
+                    </svg>
+                </div>
+            </div>
+            <!-- #endregion Jssor Slider End -->
+        </div>
+    </div>
+</section>
+<!--
+        End Gallery section
+-->
+
+
+<!--
+        Start Partners section
+-->
+<section class="our-partners wow fadeInUp" data-wow-duration="1.5s">
+    <div class="container">
+        <h2 class="upper text-center">our partners</h2>
+    </div>
+
+
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="imgs/partners/1.png" alt="">
+        </div>
+        <div class="item">
+            <img src="imgs/partners/2.png" alt="">
+        </div>
+        <div class="item">
+            <img src="imgs/partners/3.png" alt="">
+        </div>
+        <div class="item">
+            <img src="imgs/partners/4.png" alt="">
+        </div>
+        <div class="item">
+            <img src="imgs/partners/5.png" alt="">
+        </div>
+        <div class="item">
+            <img src="imgs/partners/6.png" alt="">
+        </div>
+        <div class="item">
+            <img src="imgs/partners/7.png" alt="">
+        </div>
+        <div class="item">
+            <img src="imgs/partners/8.png" alt="">
+        </div>
+        <div class="item">
+            <img src="imgs/partners/9.png" alt="">
+        </div>
+        <div class="item">
+            <img src="imgs/partners/10.png" alt="">
+        </div>
+        <div class="item">
+            <img src="imgs/partners/11.png" alt="">
+        </div>
+        <div class="item">
+            <img src="imgs/partners/12.png" alt="">
+        </div>
+        <!--<div class="item">-->
+            <!--&gt;</div>-->
+    </div>
+</section>
+<!--
+        End Partners section
+-->
+
+<!--
+        Start Testimonials section
+-->
+<section class="testimonials text-center wow fadeInUp" data-wow-duration="2.5s">
+    <div class="overlay">
+        <div class="container">
+            <div class="testi-desc">
+                <div class="like">
+                    <i class="fa fa-thumbs-up"></i>
+                </div>
+                <h2 class="upper">
+                    <!--<i class="fa fa-quote-left"></i>-->
+                    testimonials
+                    <!--<i class="fa fa-quote-right"></i>-->
+                </h2>
+            </div>
+
+            <di class="testi-body">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="imgs/testimonials/1.jpg" class="img-responsive img-thumbnail" alt="">
+                        <div class="item-style">
+                            <p class="comment">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer.
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p class="span">Lillian J. Snow</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/testimonials/2.jpg" class="img-responsive img-thumbnail" alt="">
+                        <div class="item-style">
+                            <p class="comment">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-alt"></i>
+                            </div>
+                            <p class="span">Gary C. Burkey</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/testimonials/3.jpg" class="img-responsive img-thumbnail" alt="">
+                        <div class="item-style">
+                            <p class="comment">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s .
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p class="span">Trish R. Barber</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/testimonials/4.jpg" class="img-responsive img-thumbnail" alt="">
+                        <div class="item-style">
+                            <p class="comment">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p class="span">Christopher P. Cumberbatch</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/testimonials/5.jpg" class="img-responsive img-thumbnail" alt="">
+                        <div class="item-style">
+                            <p class="comment">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                specimen book.
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-alt"></i>
+                            </div>
+                            <p class="span">Violet M. Cupps</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/testimonials/6.jpg" class="img-responsive img-thumbnail" alt="">
+                        <div class="item-style">
+                            <p class="comment">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p class="span">George G. Pinson</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/testimonials/7.jpg" class="img-responsive img-thumbnail" alt="">
+                        <div class="item-style">
+                            <p class="comment">
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-alt"></i>
+                            </div>
+                            <p class="span">Diana M. Starling</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="imgs/testimonials/8.jpg" class="img-responsive img-thumbnail" alt="">
+                        <div class="item-style">
+                            <p class="comment">
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p class="span">Rita D. Lane</p>
+                        </div>
+                    </div>
+                </div>
+            </di>
+        </div>
+    </div>
+</section>
+<!--
+        End Testimonials section
+-->
+
+<!--
+        Start Contact Us section
+-->
+<section class="contact-us">
+    <div class="container">
+        <div class="row">
+            <div class="contact-info">
+                <div class="col-md-6">
+                    <h2 class="upper">contact us</h2>
+                    <p class="team-msg">
+                        We are here to give you full comfort and luxury. <br> If you have any problem be in touch with us,
+                        You will find here unique services and facilities <br>
+                        Please send us your feedback. We wish you a happy stay
+                    </p>
+
+                    <p class="hotel-info">
+                        <i class="fa fa-map-marker-alt"></i>
+                        <span class="bld">Address: </span>
+                        <span>1115  Northwest Boulevard , Cliffside Park ,New Jersey</span>
+                    </p>
+                    <p class="hotel-info">
+                        <i class="fa fa-phone"></i>
+                        <span class="bld">Phone Number : </span>
+                        <span>201-945-1728</span>
+                    </p>
+                    <p class="hotel-info">
+                        <i class="fa fa-envelope"></i>
+                        <span class="bld">Email : </span>
+                        <span>karimabougom3@gmail.com</span>
+                    </p>
+
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <div class="col-md-6">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--
+        End Contact Us section
+-->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
